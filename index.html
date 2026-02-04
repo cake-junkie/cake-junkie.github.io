@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cake Junkie Desserts</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Weekly Flavor Banner -->
+  <div class="banner">
+    This Week’s Flavors: <span class="flavors"></span>
+  </div>
+
+  <header>
+    <img src="images/logo.png" alt="Cake Junkie Desserts Logo">
+    <h1>Freshly baked. Full of joy.</h1>
+    <p>Handcrafted desserts made fresh for every order.</p>
+  </header>
+
+  <main>
+
+    <!-- Cake Pucks -->
+    <section class="card">
+      <h2>🍰 Cake Pucks – Pack of 4 ($12)</h2>
+      <p>
+        Small cakes. Big personality. Moist cake centers dipped in luscious frosting
+        and finished with playful toppings. Perfect for sharing… or not 😉
+      </p>
+
+      <label for="flavor">Choose Your Flavor</label>
+      <select id="flavor">
+        <option>Birthday Cake 🎉</option>
+        <option>Red Velvet ❤️</option>
+        <option>Lemon Bliss 🍋</option>
+        <option>Chocolate Fudge 🍫</option>
+        <option>Baker’s Choice 🎁</option>
+      </select>
+
+      <a class="btn" href="https://bakesy.shop/b/cake-junkie-1" target="_blank">
+        Order on Bakesy
+      </a>
+    </section>
+
+    <!-- Custom Orders -->
+    <section class="card">
+      <h2>🧁 Custom Treats</h2>
+      <p>
+        Birthdays, celebrations, or just because — if it needs frosting,
+        we can make it happen.
+      </p>
+
+      <a class="btn" href="https://bakesy.shop/b/cake-junkie-1" target="_blank">
+        Start a Custom Order
+      </a>
+    </section>
+
+    <!-- Email Signup -->
+    <section class="card">
+      <h2>💌 Join the Sweet List</h2>
+      <p>
+        Be the first to know about weekly flavor drops, holiday menus,
+        and exclusive treats.
+      </p>
+
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label>Name</label>
+        <input type="text" name="name" required placeholder="Your name">
+
+        <label>Email</label>
+        <input type="email" name="email" required placeholder="you@email.com">
+
+        <input type="hidden" name="source" value="Cake Junkie Website">
+
+        <button class="btn" type="submit">Join the Sweet List</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Floating Order Button -->
+  <a class="floating-btn" href="https://bakesy.shop/b/cake-junkie-1" target="_blank">
+    🍰 Order Now
+  </a>
+
+  <footer>
+    Thank you for your sweet treat 💗
+    <span>— Cake Junkie Desserts</span>
+  </footer>
+
+</body>
+</html>
